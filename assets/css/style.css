@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Inconsolata', monospace;
+}
+
+body {
+    background-color: #9F5F80;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+
+.portfolio {
+    /* position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 40%; */
+}
+
+.title {
+    text-align: center;
+    margin: 5px;
+    color:#583D72;
+    border-radius: 10px;
+    background-color: #FF8474;
+}
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.card {
+    height: max-content;
+    margin: 25px;
+    box-shadow: 5px 5px 20px black;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+img {
+    height: 200px;
+    width: 300px;
+    border-start-start-radius: 10px;
+    transform: .5s;
+}
+
+.intro {
+    height: 20px;
+    width: auto;
+    box-sizing: border-box;
+    background: rgb(30, 30, 30, .5);
+    color: white;
+    bottom: 490px;
+    transition: .5s;
+    border-end-end-radius: 10px;
+}
+
+.card-title {
+    margin: 0;
+    font-size: 16px;
+    text-align: center;
+}
+
+.btnlist {
+    display: flex;
+    font-size: 16px;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.card:hover .intro {
+    height: 55px;
+    bottom: 490px;
+    background: #FFC996;
+    opacity: 1;
+    visibility: visible;
+    color: #583D72;
+}
+
+.card:hover .btnlist {
+    opacity: 1;
+    visibility: visible;
+}
+
+.card:hover img {
+    cursor:pointer;
+}
+
+.projectBtn {
+    align-items: center;
+    cursor: pointer;
+    height: 35px;
+    justify-content: center;
+    width: 50%;
+    font-weight: 600;
+    background: #FF8474;
+    display: flex;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    border: 2px solid #9F5F80;
+}
+
+.projectBtn:hover {
+    color:#9F5F80;
+    background: #FFC996;
+    transition: all .5s ease-in-out;
+}
+
+
