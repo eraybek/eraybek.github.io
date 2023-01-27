@@ -8,19 +8,18 @@
 
 body {
     background-color: #9F5F80;
-    text-align: center;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 60%;
 }
 
-.portfolio {
+div.portfolio {
     /* position: absolute;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
     width: 40%; */
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
 }
 
 .title {
@@ -115,4 +114,27 @@ img {
     transition: all .5s ease-in-out;
 }
 
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.website-counter {
+    text-align: center;
+    margin: 50px;
+    background-color: #00ba4d;
+    cursor: pointer;
+    font-size: 18px;
+    padding: 8px 20px;
+    color:white;
+    border-radius: 50px;
+    width: 200px;
+    transition: .5s;
+}
+
+.website-counter:hover {
+    background-color: #ff0a0a71;
+    color:rgb(255, 255, 255);
+}
 
