@@ -1,5 +1,4 @@
 var counterContainerEl = document.querySelector(".website-counter");
-var resetButtonEl = document.querySelector("#reset");
 var visitCountEl = localStorage.getItem("page_view");
 
 if (visitCountEl) {
