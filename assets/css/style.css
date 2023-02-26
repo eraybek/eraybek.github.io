@@ -29,6 +29,7 @@ div.portfolio {
     border-radius: 10px;
     background-color: #FF8474;
 }
+
 .cards {
     display: flex;
     flex-wrap: wrap;
@@ -52,7 +53,7 @@ img {
 }
 
 .intro {
-    height: 20px;
+    height: 40px;
     width: auto;
     box-sizing: border-box;
     background: rgb(30, 30, 30, .5);
@@ -63,7 +64,7 @@ img {
 }
 
 .card-title {
-    margin: 0;
+    padding: 10px;
     font-size: 16px;
     text-align: center;
 }
@@ -76,7 +77,7 @@ img {
 }
 
 .card:hover .intro {
-    height: 55px;
+    height: 75px;
     bottom: 490px;
     background: #FFC996;
     opacity: 1;
